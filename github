@@ -1,0 +1,19 @@
+mkdir que
+cd que
+git init
+touch index.txt
+git add .
+git status
+c:/windows/notepad a1
+git commit -m "create"
+git remote add origin https://github.com/navulurianjali/see.git
+git branch -M main
+git push -u origin main
+git clone https://github.com/navulurianjali/see.git
+cd see
+git checkout -b "a"
+git add .
+git commit -m "changes"
+git push origin a
+git pull origin main
+https://github.com/navulurianjali/see/compare/main...a
